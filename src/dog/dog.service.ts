@@ -11,4 +11,7 @@ export class DogService {
   public test(): string {
     return 'On Test Progress';
   }
+  public modifyDetail(): string {
+    return "Successfully modified"
+  }
 }
