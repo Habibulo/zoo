@@ -1,4 +1,5 @@
 import { Injectable } from '@nestjs/common';
+// Dog Schema Model
 
 @Injectable()
 export class DogService {
@@ -15,3 +16,4 @@ export class DogService {
     return "Successfully modified"
   }
 }
+
